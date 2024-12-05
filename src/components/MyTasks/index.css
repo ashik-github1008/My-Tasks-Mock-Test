@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a171d;
+  width: 35vw;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #131213;
+  width: 65vw;
+}
+
+.tag-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.task-list-container{
+  display: flex;
+  flex-direction: column;
+}
